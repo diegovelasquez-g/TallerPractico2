@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Taller Practico 2</string>
+    <string name="enunciado">Segundo Taller Practico - Integrantes</string>
+    <string name="integrante_1">Diego Velásquez - VG190501</string>
+    <string name="integrante_2">Irma Hernández - HM190181</string>
 </resources>
