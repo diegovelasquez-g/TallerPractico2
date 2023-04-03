@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         }
         if(id == R.id.action_exercise_2){
             Toast.makeText(this,"Bienvenido al ejercicio 2",Toast.LENGTH_SHORT).show()
-            val intent = Intent(this,Ejercicio2::class.java)
+            val intent = Intent(this,EmpleadosActivity::class.java)
             startActivity(intent)
         }
         return super.onOptionsItemSelected(item)

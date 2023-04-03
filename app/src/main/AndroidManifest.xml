@@ -12,6 +12,15 @@
         android:theme="@style/Theme.TallerPractico2"
         tools:targetApi="31">
         <activity
+            android:name=".EmpleadosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdaptadorEmpleado"
+            android:exported="false" />
+        <activity
+            android:name=".datos.Empleado"
+            android:exported="false" />
+        <activity
             android:name=".datos.Estudiante"
             android:exported="false" />
         <activity
@@ -28,8 +37,7 @@
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".RegisterActivity"
             android:exported="true">
@@ -41,8 +49,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>
